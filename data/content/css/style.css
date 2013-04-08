@@ -1,0 +1,39 @@
+/*
+	 Organic Tabs
+	 by Chris Coyier
+	 http://css-tricks.com
+*/
+
+* { margin: 0; padding: 0; }
+body { }
+html { overflow-y: scroll; }
+a { text-decoration: none; }
+a:focus { outline: 0; }
+p { font-size: 15px; margin: 0 0 20px 0; }
+#page-wrap { width: auto; margin: 0 auto; }
+h1 { font: bold 40px sans-Serif; margin: 0 0 20px 0; }
+nav { overflow:hidden; }
+
+/* Generic Utility */
+.hide { position: absolute; top: -9999px; left: -9999px; }
+
+.list-wrap { background: #eee; }
+
+ul { list-style: none; }
+ul li a { display: block; border-bottom: 1px inset gray; padding: 4px; color: #666; }
+ul li a:hover {	background: #333; color: white; }
+ul li:last-child a { border: none; }
+
+nav li { width: 50%; float: left; }
+nav li.last { margin-right: 0; }
+nav li a { display: block; padding: 5px; background: #333; color: white; font-size: 1.15em; text-align: center; border: 0; text-transform: uppercase; font-weight:bold; }
+
+li a.current, li a.current:hover { background-color: #eee !important; color: black; }
+nav li a:hover, nav li a:focus { background: #999;}
+
+.list-wrap li a:hover { border-right: 15px solid #E23A6E; text-align: right; -moz-transition-property: font-size; -moz-transition-duration: 0.5s; font-size: 1.7em;}
+
+footer { display: inline; }
+footer li { text-transform: uppercase; float: left; width: 33.33%; text-align: center; }
+footer li a{ background: #333; color: white; }
+footer li a:hover{ background: #eee; color: black; border-top: 4px solid #E23A6E; }

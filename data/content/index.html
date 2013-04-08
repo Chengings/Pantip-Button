@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	
+	<title>Pantip Button</title>
+	
+	<link rel="stylesheet" href="css/style.css">
+	
+    <script src="js/jquery-1.7.2.min.js"></script>
+    <script src="js/organictabs.js"></script>
+</head>
+
+<body>
+
+	<div id="page-wrap">
+    
+		<div id="pantip-tab">
+        	<nav>
+<ul class="nav">
+    			<li class="nav-one"><a href="#cafe" class="current">Cafe</a></li>
+                <li class="nav-two"><a href="#tech">Tech</a></li>
+            </ul>
+			</nav>
+    		
+    		<div class="list-wrap">
+    		
+    			<ul id="cafe">
+    				<li><a href="http://www.pantip.com/cafe/food/">ก้นครัว</a></li>
+    				<li><a href="http://www.pantip.com/cafe/camera/">กล้อง</a></li>
+    				<li><a href="http://www.pantip.com/cafe/klaibann/">ไกลบ้าน</a></li>
+    				<li><a href="http://www.pantip.com/cafe/jatujak/">จตุจักร</a></li>
+    				<li><a href="http://www.pantip.com/cafe/chalermkrung/">เฉลิมกรุง</a></li>
+    				<li><a href="http://www.pantip.com/cafe/chalermthai/">เฉลิมไทย</a></li>
+    				<li><a href="http://www.pantip.com/cafe/family/">ชานเรือน</a></li>
+    				<li><a href="http://www.pantip.com/cafe/home/">ชายคา</a></li>
+    				<li><a href="http://www.pantip.com/cafe/news/">โต๊ะข่าว</a></li>
+    				<li><a href="http://www.pantip.com/cafe/woman/">โต๊ะเครื่องแป้ง</a></li>
+    				<li><a href="http://www.pantip.com/cafe/mbk/">มาบุญครอง</a></li>
+    				<li><a href="http://www.pantip.com/cafe/all/">รวมมิตร </a></li>
+    				<li><a href="http://www.pantip.com/cafe/ratchada/">รัชดา</a></li>
+    				<li><a href="http://www.pantip.com/cafe/rajdumnern/">ราชดำเนิน</a></li>
+    				<li><a href="http://www.pantip.com/cafe/isolate/">ไร้สังกัด</a></li>
+    				<li><a href="http://www.pantip.com/cafe/social/">ศาลาประชาคม</a></li>
+    				<li><a href="http://www.pantip.com/cafe/religious/">ศาสนา</a></li>
+    				<li><a href="http://www.pantip.com/cafe/supachalasai/">ศุภชลาศัย</a></li>
+    				<li><a href="http://www.pantip.com/cafe/siam/">สยามสแควร์</a></li>
+    				<li><a href="http://www.pantip.com/cafe/lumpini/">สวนลุมพินี </a></li>
+    				<li><a href="http://www.pantip.com/cafe/sinthorn/">สินธร</a></li>
+    				<li><a href="http://www.pantip.com/cafe/silom/">สีลม</a></li>
+    				<li><a href="http://www.pantip.com/cafe/wahkor/">หว้ากอ</a></li>
+    				<li><a href="http://www.pantip.com/cafe/library/">ห้องสมุด</a></li>
+    				<li><a href="http://www.pantip.com/cafe/blueplanet/">BluePlanet</a> </li>                    
+</ul>
+        		 
+        		<ul id="tech" class="hide">
+                   <li><a href="http://www.pantip.com/tech/comsci/">Computer Sci. &amp; Engineer</a></li>
+                   <li><a href="http://www.pantip.com/tech/developer/">Developer</a></li>
+                   <li><a href="http://www.pantip.com/tech/electronics/">Electronics</a></li>
+                   <li><a href="http://www.pantip.com/tech/gadget/">Gadget</a></li>
+                   <li><a href="http://www.pantip.com/tech/games/">Games</a></li>
+                   <li><a href="http://www.pantip.com/tech/hardware/">Hardware</a></li>
+                   <li><a href="http://www.pantip.com/tech/nonpc/">Mac/Pocket PC/Palm</a></li>
+                   <li><a href="http://www.pantip.com/tech/internet/">Network &amp; Internet</a></li>
+                   <li><a href="http://www.pantip.com/tech/software/">Software</a></li>
+                   <li><a href="http://www.pantip.com/tech/tablet/">Tablet</a></li>
+                   <li><a href="http://www.pantip.com/tech/market/">Technical Market</a></li>
+                   <li><a href="http://www.pantip.com/tech/newscols/">Technical News</a></li>
+                   <li><a href="http://www.pantip.com/tech/basic/">คอมฯมือใหม่</a></li>
+                   <li><a href="http://www.pantip.com/tech/all/">รวมมิตร</a></li>                   
+	     	  </ul>
+        		 
+   		  </div> <!-- END List Wrap -->
+		 
+		 </div> <!-- END Pantip Tab -->
+	</div>
+	<footer>
+		<ul>
+			<li><a href="http://www.mhafai.com/">www</a></li>
+			<li><a href="https://www.facebook.com/mhafai">facebook</a></li>
+			<li><a href="https://twitter.com/#!/mhafai">twitter</a></li>
+		</ul>
+   </footer>
+    <script>
+        $(function() {
+            $("#pantip-tab").organicTabs({
+                "speed": 200
+            });
+				$(".list-wrap a, footer a").click(function() {
+		        $(this).attr('target', '_blank');
+    			})
+        });
+    </script>
+</body>
+
+</html>

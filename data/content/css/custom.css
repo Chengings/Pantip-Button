@@ -1,0 +1,126 @@
+body {
+	background: none repeat scroll 0% 0% #3C3963;
+	overflow: hidden;
+}
+li a{
+	margin-left: 10px;
+	margin-top: 8px;
+	float: left;
+	color: #E5C700;
+}
+a.outstand{
+	color: #fff;
+}
+.iconwrap{
+	float: left;
+	margin-left: 5px;
+	margin-top: 3px;
+}
+.icon-roommenu{
+    display: block;
+    width: 36px;
+    height: 36px;
+    background: url("../img/icon-roommenu.png") no-repeat scroll 0px 0px transparent;
+}
+.icon-info{
+    display: block;
+    width: 36px;
+    height: 36px;
+    background: url("../img/icon-info.png") no-repeat scroll 0px 0px transparent;
+}
+.icon-roommenu.icon-camera {
+    background-position: 0px 0px;
+}
+.icon-roommenu.icon-food{
+	background-position:0px -36px;
+}
+.icon-roommenu.icon-gallery{
+	background-position:0px -72px;
+}
+.icon-roommenu.icon-klaiban{
+	background-position:0px -108px;
+}
+.icon-roommenu.icon-pet{
+	background-position:0px -144px;
+}
+.icon-roommenu.icon-music{
+	background-position:0px -180px;
+}
+.icon-roommenu.icon-film{
+	background-position:-36px 0px;
+}
+.icon-roommenu.icon-family{
+	background-position:-36px -36px;
+}
+.icon-roommenu.icon-home{
+	background-position:-36px -72px;
+}
+.icon-roommenu.icon-silicon{
+	background-position:-36px -108px;
+}
+.icon-roommenu.icon-beauty{
+	background-position:-36px -144px;
+}
+.icon-roommenu.icon-writer{
+	background-position:-36px -180px;
+}
+.icon-roommenu.icon-blueplanet{
+	background-position:-72px 0px;
+}
+.icon-roommenu.icon-pantipsmile{
+	background-position:-72px -36px;
+}
+.icon-roommenu.icon-thailandmap{
+	background-position:-72px -72px;
+}
+.icon-roommenu.icon-mbkphone{
+	background-position:-72px -108px;
+}
+.icon-roommenu.icon-pantipall{
+	background-position:-72px -144px;
+}
+.icon-roommenu.icon-ratchadacar{
+	background-position:-72px -180px;
+}
+.icon-roommenu.icon-politics{
+	background-position:-108px 0px;
+}
+.icon-roommenu.icon-megaphone{
+	background-position:-108px -36px;
+}
+.icon-roommenu.icon-religious{
+	background-position:-108px -72px;
+}
+.icon-roommenu.icon-sports{
+	background-position:-108px -108px;
+}
+.icon-roommenu.icon-siamchat{
+	background-position:-108px -144px;
+}
+.icon-roommenu.icon-lumpinihealth{
+	background-position:-108px -180px;
+}
+.icon-roommenu.icon-sinthornchart{
+	background-position:-144px 0px;
+}
+.icon-roommenu.icon-silomman{
+	background-position:-144px -36px;
+}
+.icon-roommenu.icon-scilabs{
+	background-position:-144px -72px;
+}
+.icon-roommenu.icon-librarybook{
+	background-position:-144px -108px;
+}
+.icon-roommenu.icon-isolatecoffee{
+	background-position:-144px -144px;
+}
+.icon-roommenu.icon-greenzone{
+	background-position:-144px -180px;
+}
+.icon-roommenu.icon-art{
+	background-position:-180px 0px;
+}
+.icon-roommenu.icon-cartoon{
+	background-position:-180px -36px;
+}

@@ -1,97 +1,392 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-	<meta charset="UTF-8">
-	
-	<title>Pantip Button</title>
-	
-	<link rel="stylesheet" href="css/style.css">
-	
-    <script src="js/jquery-1.7.2.min.js"></script>
-    <script src="js/organictabs.js"></script>
-</head>
-
-<body>
-
-	<div id="page-wrap">
-    
-		<div id="pantip-tab">
-        	<nav>
-<ul class="nav">
-    			<li class="nav-one"><a href="#cafe" class="current">Cafe</a></li>
-                <li class="nav-two"><a href="#tech">Tech</a></li>
-            </ul>
-			</nav>
-    		
-    		<div class="list-wrap">
-    		
-    			<ul id="cafe">
-    				<li><a href="http://www.pantip.com/cafe/food/">ก้นครัว</a></li>
-    				<li><a href="http://www.pantip.com/cafe/camera/">กล้อง</a></li>
-    				<li><a href="http://www.pantip.com/cafe/klaibann/">ไกลบ้าน</a></li>
-    				<li><a href="http://www.pantip.com/cafe/jatujak/">จตุจักร</a></li>
-    				<li><a href="http://www.pantip.com/cafe/chalermkrung/">เฉลิมกรุง</a></li>
-    				<li><a href="http://www.pantip.com/cafe/chalermthai/">เฉลิมไทย</a></li>
-    				<li><a href="http://www.pantip.com/cafe/family/">ชานเรือน</a></li>
-    				<li><a href="http://www.pantip.com/cafe/home/">ชายคา</a></li>
-    				<li><a href="http://www.pantip.com/cafe/news/">โต๊ะข่าว</a></li>
-    				<li><a href="http://www.pantip.com/cafe/woman/">โต๊ะเครื่องแป้ง</a></li>
-    				<li><a href="http://www.pantip.com/cafe/mbk/">มาบุญครอง</a></li>
-    				<li><a href="http://www.pantip.com/cafe/all/">รวมมิตร </a></li>
-    				<li><a href="http://www.pantip.com/cafe/ratchada/">รัชดา</a></li>
-    				<li><a href="http://www.pantip.com/cafe/rajdumnern/">ราชดำเนิน</a></li>
-    				<li><a href="http://www.pantip.com/cafe/isolate/">ไร้สังกัด</a></li>
-    				<li><a href="http://www.pantip.com/cafe/social/">ศาลาประชาคม</a></li>
-    				<li><a href="http://www.pantip.com/cafe/religious/">ศาสนา</a></li>
-    				<li><a href="http://www.pantip.com/cafe/supachalasai/">ศุภชลาศัย</a></li>
-    				<li><a href="http://www.pantip.com/cafe/siam/">สยามสแควร์</a></li>
-    				<li><a href="http://www.pantip.com/cafe/lumpini/">สวนลุมพินี </a></li>
-    				<li><a href="http://www.pantip.com/cafe/sinthorn/">สินธร</a></li>
-    				<li><a href="http://www.pantip.com/cafe/silom/">สีลม</a></li>
-    				<li><a href="http://www.pantip.com/cafe/wahkor/">หว้ากอ</a></li>
-    				<li><a href="http://www.pantip.com/cafe/library/">ห้องสมุด</a></li>
-    				<li><a href="http://www.pantip.com/cafe/blueplanet/">BluePlanet</a> </li>                    
-</ul>
-        		 
-        		<ul id="tech" class="hide">
-                   <li><a href="http://www.pantip.com/tech/comsci/">Computer Sci. &amp; Engineer</a></li>
-                   <li><a href="http://www.pantip.com/tech/developer/">Developer</a></li>
-                   <li><a href="http://www.pantip.com/tech/electronics/">Electronics</a></li>
-                   <li><a href="http://www.pantip.com/tech/gadget/">Gadget</a></li>
-                   <li><a href="http://www.pantip.com/tech/games/">Games</a></li>
-                   <li><a href="http://www.pantip.com/tech/hardware/">Hardware</a></li>
-                   <li><a href="http://www.pantip.com/tech/nonpc/">Mac/Pocket PC/Palm</a></li>
-                   <li><a href="http://www.pantip.com/tech/internet/">Network &amp; Internet</a></li>
-                   <li><a href="http://www.pantip.com/tech/software/">Software</a></li>
-                   <li><a href="http://www.pantip.com/tech/tablet/">Tablet</a></li>
-                   <li><a href="http://www.pantip.com/tech/market/">Technical Market</a></li>
-                   <li><a href="http://www.pantip.com/tech/newscols/">Technical News</a></li>
-                   <li><a href="http://www.pantip.com/tech/basic/">คอมฯมือใหม่</a></li>
-                   <li><a href="http://www.pantip.com/tech/all/">รวมมิตร</a></li>                   
-	     	  </ul>
-        		 
-   		  </div> <!-- END List Wrap -->
-		 
-		 </div> <!-- END Pantip Tab -->
-	</div>
-	<footer>
-		<ul>
-			<li><a href="http://www.mhafai.com/">www</a></li>
-			<li><a href="https://www.facebook.com/mhafai">facebook</a></li>
-			<li><a href="https://twitter.com/#!/mhafai">twitter</a></li>
-		</ul>
-   </footer>
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pantip Button</title>
+    <link rel="stylesheet" href="css/foundation.min.css" />
+    <link rel="stylesheet" href="css/custom.css" />
+    <script src="js/modernizr.js"></script>
+  </head>
+  <body>
+    <ul class="small-block-grid-4 medium-block-grid-5 large-block-grid-5">
+      <li>
+        <div class="iconwrap">
+          <span class="icon-roommenu icon-camera">
+          </span>
+        </div>
+        <a href="http://pantip.com/forum/camera" title="กล้องถ่ายรูป กล้อง DSLR กล้องวิดีโอ เทคนิคการถ่ายรูป">
+          <span class="title">
+            กล้อง
+          </span>
+        </a>
+      </li>
+      <li>
+        <div class="iconwrap">
+          <span class="icon-roommenu icon-food">
+          </span>
+        </div>
+        <a href="http://pantip.com/forum/food" title="ร้านอาหาร สูตรอาหาร อาหารคาว อาหารหวาน เบเกอรี่ ไอศกรีม">
+          <span class="title">
+            ก้นครัว
+          </span>
+        </a>
+      </li>
+      <li>
+        <div class="iconwrap">
+          <span class="icon-roommenu icon-gallery">
+          </span>
+        </div>
+        <a href="http://pantip.com/forum/gallery" title="ภายถ่ายบุคคล ภาพถ่ายทิวทัศน์ ภาพถ่ายมาโคร">
+          <span class="title">
+            แกลเลอรี่
+          </span>
+        </a>
+      </li>
+      <li>
+        <div class="iconwrap">
+          <span class="icon-roommenu icon-klaiban">
+          </span>
+        </div>
+        <a href="http://pantip.com/forum/klaibann" title="เรียนต่อต่างประเทศ ทำงานต่างประเทศ วีซ่า">
+          <span class="title">
+            ไกลบ้าน
+          </span>
+        </a>
+      </li>
+      <li>
+        <div class="iconwrap">
+          <span class="icon-roommenu icon-pet">
+          </span>
+        </div>
+        <a href="http://pantip.com/forum/jatujak">
+          <span class="title">
+            จตุจักร
+          </span>
+        </a>
+      </li>
+      <li>
+        <div class="iconwrap">
+          <span class="icon-roommenu icon-music">
+          </span>
+        </div>
+        
+        <a href="http://pantip.com/forum/chalermkrung">
+          <span class="title">
+            เฉลิมกรุง
+          </span>
+        </a>
+      </li>
+      <li>
+        <div class="iconwrap">
+            <span class="icon-roommenu icon-film">
+            </span>
+          </div>
+        <a href="http://pantip.com/forum/chalermthai" title="นักแสดง ภาพยนตร์ รายการโทรทัศน์ ละคร โฆษณาโทรทัศน์">
+          <span class="title">
+            เฉลิมไทย
+          </span>
+        </a>
+      </li>
+      <li>
+        <div class="iconwrap">
+          <span class="icon-roommenu icon-family">
+          </span>
+        </div>
+        
+        <a href="http://pantip.com/forum/family" title="ครอบครัว ตั้งครรภ์ ตั้งชื่อลูก การเลี้ยงลูก การสอนลูก">
+          <span class="title">
+            ชานเรือน
+          </span>
+        </a>
+      </li>
+      <li>
+        <div class="iconwrap">
+          <span class="icon-roommenu icon-home">
+          </span>
+        </div>
+        <a href="http://pantip.com/forum/home" title="บ้าน คอนโดมิเนียม ตกแต่งบ้าน เฟอร์นิเจอร์ เครื่องใช้ไฟฟ้า เครื่องครัว">
+          <span class="title">
+            ชายคา
+          </span>
+        </a>
+      </li>
+      <li>
+        <div class="iconwrap">
+          <span class="icon-roommenu icon-silicon">
+          </span>
+        </div>
+        <a href="http://pantip.com/forum/siliconvalley" title="คอมมือใหม่ อินเทอร์เน็ต ซอฟต์แวร์ ฮาร์ดแวร์ เกม เขียนโปรแกรม Gadget">
+          <span class="title">
+            ซิลิคอนวัลเลย์
+          </span>
+        </a>
+      </li>
+      <li>
+        <div class="iconwrap">
+          <span class="icon-roommenu icon-beauty">
+          </span>
+        </div>
+        <a href="http://pantip.com/forum/beauty" title="เครื่องสำอาง เสริมสวย แฟชั่น เครื่องประดับ ลดความอ้วน">
+          <span class="title">
+            โต๊ะเครื่องแป้ง
+          </span>
+          </a>
+      </li>
+      <li>
+        <div class="iconwrap">
+          <span class="icon-roommenu icon-writer">
+          </span>
+        </div>
+        <a href="http://pantip.com/forum/writer" title="แต่งนิยาย เรื่องสั้น กลอน นิทาน">
+          <span class="title">
+            ถนนนักเขียน
+          </span>
+          </a>
+      </li>
+      <li>
+        <div class="iconwrap">
+          <span class="icon-roommenu icon-blueplanet">
+          </span>
+        </div>
+        <a href="http://pantip.com/forum/blueplanet"title="เที่ยวไทย เที่ยวต่างประเทศ ทะเล ภูเขา เกาะ น้ำตก ดำน้ำ สายการบิน">
+          <span class="title">
+            บลูแพลนเน็ต
+          </span>
+          </a>
+      </li>
+      <li>
+        <div class="iconwrap">
+          <span class="icon-roommenu icon-pantipsmile">
+          </span>
+        </div>
+        <a href="http://pantip.com/forum/pantip" title="ข้อเสนอแนะถึงพันทิป วิธีการใช้งานพันทิป กิจกรรมพันทิป">
+          <span class="title">
+            พันทิป
+          </span>
+          </a>
+      </li>
+      <li>
+        <div class="iconwrap">
+          <span class="icon-roommenu icon-thailandmap">
+          </span>
+        </div>
+        <a href="http://pantip.com/forum/region" title="ภาคเหนือ ภาคอีสาน ภาคกลาง ภาคตะวันออก ภาคตะวันตก ภาคใต้">
+          <span class="title">
+            ภูมิภาค
+          </span>
+          </a>
+      </li>
+      <li>
+        <div class="iconwrap">
+          <span class="icon-roommenu icon-mbkphone">
+          </span>
+        </div>
+        <a href="http://pantip.com/forum/mbk" title="โทรศัพท์มือถือ Smartphone Tablet iOS Android">
+          <span class="title">
+            มาบุญครอง
+          </span>
+          </a>
+      </li>
+      <li>
+        <div class="iconwrap">
+          <span class="icon-roommenu icon-pantipall">
+          </span>
+        </div>
+        <a href="/forum" title="รวมกระทู้จากทุกห้อง">
+          <span class="title">
+            รวมมิตร
+          </span>
+        </a>
+      </li>
+      <li>
+        <div class="iconwrap">
+          <span class="icon-roommenu icon-ratchadacar">
+          </span>
+        </div>
+        <a href="http://pantip.com/forum/ratchada" title="รถยนต์ มอเตอร์ไซค์ เครื่องเสียงรถยนต์ แต่งรถ การจราจร">
+          <span class="title">
+            รัชดา
+          </span>
+        </a>
+      </li>
+      <li>
+        <div class="iconwrap">
+          <span class="icon-roommenu icon-politics">
+          </span>
+        </div>
+        
+        <a href="http://pantip.com/forum/rajdumnern" title="การเมือง รัฐศาสตร์ กฎหมาย สภาผู้แทน รัฐบาล ฝ่ายค้าน พรรคการเมือง">
+          <span class="title">
+            ราชดำเนิน
+          </span>
+        </a>
+      </li>
+      <li title="กระทู้อื่นๆ ที่ไม่สังกัดห้องไหนเลย">
+        <div class="iconwrap">
+          <span class="icon-roommenu icon-isolatecoffee">
+          </span>
+        </div>
+        
+        <a href="http://pantip.com/forum/isolate">
+          <span class="title">
+            ไร้สังกัด
+          </span>
+        </a>
+      </li>
+      <li title="กฎหมาย ปัญหาสังคม ปัญหาชีวิต เศรษฐกิจ คุ้มครองผู้บริโภค">
+        <div class="iconwrap">
+          <span class="icon-roommenu icon-megaphone">
+          </span>
+        </div>
+        
+        <a href="http://pantip.com/forum/social">
+          <span class="title">
+            ศาลาประชาคม
+          </span>
+        </a>
+      </li>
+      <li>
+        <div class="iconwrap">
+          <span class="icon-roommenu icon-religious">
+          </span>
+        </div>
+        
+        <a href="http://pantip.com/forum/religious" title="ศาสนาพุทธ ศาสนาคริสต์ ศาสนาอิสลาม เที่ยววัด ทำบุญ">
+          <span class="title">
+            ศาสนา
+          </span>
+        </a>
+      </li>
+      <li>
+        <div class="iconwrap">
+          <span class="icon-roommenu icon-sports">
+          </span>
+        </div>
+        
+        <a href="http://pantip.com/forum/supachalasai" title="กีฬา ฟุตบอล บาสเกตบอล มวยสากล กอล์ฟ จักรยาน นักกีฬา">
+          <span class="title">
+            ศุภชลาศัย
+          </span>
+        </a>
+      </li>
+      <li>
+        <div class="iconwrap">
+          <span class="icon-roommenu icon-siamchat">
+          </span>
+        </div>
+        <a href="http://pantip.com/forum/siam" title="ชีวิตวัยรุ่น การเรียน โรงเรียน มหาวิทยาลัย ความรักวัยรุ่น เกม">
+          <span class="title">
+            สยามสแควร์
+          </span>
+        </a>
+      </li>
+      <li>
+        <div class="iconwrap">
+          <span class="icon-roommenu icon-lumpinihealth">
+          </span>
+        </div>
+        <a href="http://pantip.com/forum/lumpini" title="สุขภาพกาย สุขภาพจิต โรคมะเร็ง โรคไมเกรน โรคภูมิแพ้ ปวดประจำเดือน">
+          <span class="title">
+            สวนลุมพินี
+          </span>
+        </a>
+      </li>
+      <li>
+        <div class="iconwrap">
+          <span class="icon-roommenu icon-sinthornchart">
+          </span>
+        </div>
+        <a href="http://pantip.com/forum/sinthorn" title="หุ้น เศรษฐกิจ การลงทุน LTF RMF ธนาคาร เงินตราต่างประเทศ">
+          <span class="title">
+            สินธร
+          </span>
+        </a>
+      </li>
+      <li>
+        <div class="iconwrap">
+          <span class="icon-roommenu icon-silomman">
+          </span>
+        </div>
+        <a href="http://pantip.com/forum/silom" title="การบริหารจัดการ การตลาด ทรัพยากรบุคคล งานขาย SME ภาษีนิติบุคคล">
+          <span class="title">
+            สีลม
+          </span>
+        </a>
+      </li>
+      <li>
+        <div class="iconwrap">
+          <span class="icon-roommenu icon-scilabs">
+          </span>
+        </div>
+        <a href="http://pantip.com/forum/wahkor" title="วิทยาศาสตร์ วิศวกรรม เทคโนโลยี ฟิสิกส์ ดาราศาสตร์ อวกาศ">
+          
+          <span class="title">
+            หว้ากอ
+          </span>
+        </a>
+      </li>
+      <li>
+        <div class="iconwrap">
+          <span class="icon-roommenu icon-librarybook">
+          </span>
+        </div>
+        <a href="http://pantip.com/forum/library" title="หนังสือ หนังสือนิยาย ภาษาไทย ภาษาจีน ภาษาอังกฤษ ปรัชญา ประวัติศาสตร์">
+          <span class="title">
+            ห้องสมุด
+          </span>
+        </a>
+      </li>
+      <li>
+        <div class="iconwrap">
+          <span class="icon-roommenu icon-greenzone">
+          </span>
+        </div>
+        <a href="http://pantip.com/forum/greenzone" title="อนุรักษ์สิ่งแวดล้อม อนุรักษ์พลังงาน Green Living การออกแบบเพื่อสิ่งแวดล้อม ผลิตภัณฑ์รักษ์โลก เกษตรอินทรีย์">
+          <span class="title">
+            กรีนโซน
+          </span>
+        </a>
+      </li>
+      <li>
+        <div class="iconwrap">
+          <span class="icon-roommenu icon-art">
+          </span>
+        </div>
+        <a href="http://pantip.com/forum/art" title="ศิลปะ ภาพวาด ประวัติศาสตร์ศิลป์ สื่อประสม Graphic Design">
+          <span class="title">
+            หอศิลป์
+          </span>
+        </a>
+      </li>
+      <li>
+        <div class="iconwrap">
+          <span class="icon-roommenu icon-cartoon">
+          </span>
+        </div>
+        <a href="http://pantip.com/forum/cartoon" title="การ์ตูนญี่ปุ่น การ์ตูนไทย การ์ตูนฝรั่ง อนิเมะ วาดการ์ตูน ของสะสมจากการ์ตูน คอสเพลย์">
+          <span class="title">
+            การ์ตูน
+          </span>
+        </a>
+      </li>
+      <li>
+        <div class="iconwrap">
+          <span class="icon-info">
+          </span>
+        </div>
+        <a class="outstand" href="http://www.mhafai.com">
+          <span class="title">
+            หมาไฟ
+          </span>
+        </a>
+      </li>
+    </ul>        
+    <script src="js/jquery.min.js"></script>
+    <script src="js/foundation.min.js"></script>
     <script>
-        $(function() {
-            $("#pantip-tab").organicTabs({
-                "speed": 200
-            });
-				$(".list-wrap a, footer a").click(function() {
-		        $(this).attr('target', '_blank');
-    			})
-        });
+      $(document).foundation();
+      $('a[href^="http://"]').attr('target','_blank');
     </script>
-</body>
-
+  </body>
 </html>
